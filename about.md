@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: Author
 permalink: /about/
 ---
 
-Some information about you!
+VuongNM here.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm a Machine Learning enthusiast. My work mostly focus on text analysis. I also do kaggle for fun.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[vuongnguyen710 at gmail dot com ]
