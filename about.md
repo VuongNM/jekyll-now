@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Author
-permalink: /about/
+permalink: /about
 ---
 
 VuongNM here.
@@ -10,7 +10,7 @@ VuongNM here.
 
 I'm a Machine Learning enthusiast. My work mostly focus on text analysis. I also do kaggle for fun.
 
-[Take a look at my CV]({{site.baseurl}}/images/NguyenMinhVuong-cv.pdf)
+[Take a look at my CV](https://vuongnm.github.io/images/NguyenMinhVuong-cv.pdf)
 
 ### Contact me
 
