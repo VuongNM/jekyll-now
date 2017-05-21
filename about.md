@@ -12,7 +12,7 @@ I'm a Machine Learning enthusiast. My work mostly focus on text analysis. I also
 
 ### Contact me
 
-Email me at: vuongnguyen710 at gmail dot com 
+Email me at: vuongnguyen710 at gmail dot com <br/>
 Linkedin: linkedin.com/in/vuongnm 
 Kaggle: kaggle.com/sassyvuong 
 Github: github.com/vuongnm 
