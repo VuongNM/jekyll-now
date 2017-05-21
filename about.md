@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Author
-permalink: /about
+permalink: /about/
 ---
 
 VuongNM here.
