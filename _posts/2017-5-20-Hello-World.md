@@ -1,6 +1,6 @@
 ---
 layout: post
-title: On Data Science Career.
+title: On Data Science Career
 ---
 
 I'm Vuong. I'm a Data Scientist @ Spiraledge, Inc. I'm building stuffs out here in Saigon, VietNam.

@@ -1,0 +1,22 @@
+---
+layout: post
+title: Lindy's effect
+---
+
+
+The Lindy's effect states that for some certain non-perishable things, its remaining life expectancy is proportional to its age. It's sometimes referred to as Lindy's law.
+
+
+
+This law does not apply for things that are bounded by physical limitation such as lifeforms or mechanical objects.
+
+Things fall into the effect including ideas, religions or technologies and so on...
+
+One spectacular example is how frequently JavaScript frameworks appear and disappear, comparing to old technology, such as, say, the TCP protocol. The latter has been doing well for quite a long time (generations in tech age) and it will (speculatively) remain so.
+
+
+The law got its name from a restaurant chain, the Lindy's, where comedians gathered and predict how long their show series will last. They found out that the more the comedian got exposed on the medium, the longer the series will be. For a collective of things obeys Lindy's effect, their life expectancies will obey the power law.
+
+
+The effect could come in handy in the case of having to make relevant tech choice: favor the older one, since it's more likely to be popular and received more support and maintenance, thus fewer headaches.
+
