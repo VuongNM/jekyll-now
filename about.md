@@ -4,16 +4,12 @@ title: Author
 permalink: /about/
 ---
 
-VuongNM here.
+Hello there, VuongNM's here. Welcome to my blog!
 
-I'm a Machine Learning enthusiast. My work mostly focus on text analysis. I also do kaggle for fun.
-
-[Take a look at my CV ( a bit outdated)](https://vuongnm.github.io/images/NguyenMinhVuong-CV.pdf)
+Right now, I'm working as a Data Scientist. I'm wrangling code out of Ho Chi Minh City, VietNam.
 
 ### Contact me
 
-Email me at: vuongnguyen710 at gmail dot com <br/>
+Email: vuongnguyen710 at gmail dot com <br/>
 Linkedin: linkedin.com/in/vuongnm <br/>
 Kaggle: kaggle.com/sassyvuong <br/>
-Github: github.com/vuongnm <br/>
-Website: vuongnm.github.io <br/>

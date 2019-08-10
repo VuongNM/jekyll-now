@@ -1,9 +1,18 @@
 ---
 layout: post
-title: The random man
+title: Drafts
 ---
 
 
-- A random variable
+- A random men 
 
-- A random man
+
+
+- Do what you love and love what you do 
+
+
+
+
+- Recommendation series 
+
+
