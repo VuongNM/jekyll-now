@@ -1,12 +1,12 @@
 ---
 layout: post
-title: On Data Science Career
+title: On Data Science 
 ---
 
 I'm Vuong. I'm a Data Scientist @ Spiraledge, Inc. I'm building stuffs out here in Saigon, VietNam.
 
 
-As a Data Scientist, I build data products.
+** As a Data Scientist, I build data products. **
 
 
 The product can be just as small as an averaging number, or as big as a 10-folds boosted tree model. 
@@ -32,8 +32,8 @@ That 80% parts including things like:
 
 
 --
-
-As a Data Science Team Leader, I help other people build data products. 
+ 
+** As a Data Science Team Leader, I help other people build data products. **
 
 It requires visions of how decision should be made based on facts (not all of the visions a mine, thought :) And with that, we need plans. How do we fit that plans into the grand scheme, and make people to buy into that plan is an important part of the job. 
 
