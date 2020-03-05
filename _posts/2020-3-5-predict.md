@@ -4,7 +4,7 @@ title: Predictions and Smedictions
 excerpt: How I improve my boosted tree using a plasma globe.
 ---
 
-Predictions are hard, especially when it's about the future. The first thing you want to ask when tasked with forecasting and such, is the thing i'm trying to predict predictable.
+Predictions are hard, especially when it's about the future. The first thing you want to ask when tasked with forecasting, is the thing you are trying to predict predictable.
 
 
 
