@@ -12,7 +12,7 @@ Predictability boils down to the ability to spot patterns, based on things that 
 
 
 
-Predicting something unpredictable (in principle) is just fortune telling, it hits and misses. (By the way, <bitchy> I'm a Libra everybody, so you know I hate being alone </bitchy>.  Btw btw, It's prime time false prediction, shame on you Cosmopolitan mag ). In that case, sophisticated models and metrics are just like cards and plasma globes. It's there just to fool you. If there are people trying to sell you predictions like those, they are either being possessed by something (ghosts, or even scarier, money) or just plainly think that you are dumb. Or both.
+Predicting something unpredictable (in principle) is just fortune telling, it hits and misses. (By the way, &lt;bitchy&gt; I'm a Libra everybody, so you know I hate being alone &lt;/bitchy&gt;.  Btw btw, It's prime time false prediction, shame on you Cosmopolitan mag ). In that case, sophisticated models and metrics are just like cards and plasma globes. It's there just to fool you. If there are people trying to sell you predictions like those, they are either being possessed by something (ghosts, or even scarier, money) or just plainly think that you are dumb. Or both.
 
 
 
