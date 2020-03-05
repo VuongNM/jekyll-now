@@ -8,7 +8,6 @@ excerpt: Bayesian > Frequentist. Change my mind!
 Experiment time! Please put your lab coat on, protective glass is a must. This is a dangerous experiment and the result will blow you away!
 
 
---
 
 Experiment starts at 8:00 AM. Everybody looks tense.
 
@@ -21,8 +20,6 @@ Then he do it again, and again, and again. After some hours, he has done thousan
 
 Just before lunch time, he calculates the symmetric confidence interval for his experiment. 
 
-
--- 
 
 
 In the afternoon, he repeats the experiments many time (He's done more after lunch, because not a morning bird he is, and the jeans are tight as I told you).
@@ -44,19 +41,14 @@ Vuong, as a proud Frequentist he is, pissed off. He knows that there will be no 
 
 
 
---
 
 Vuong looks tense now. He is embarrased in front of everybody, especially the starryeyed girls.
 
 
---
 
 Jumping to the side, Vuong pulled out a giant Natri coin size of a disc that he always stores in the lab fridge, and start tossing it to a water.
 
 BAM!!!! The lab explode! Everybody crawling out. Smoke is all over the place. Told you it's a dangerous experimenting with Vuong.
-
-
--- 
 
 
 
