@@ -114,15 +114,12 @@ binarized_dataset.columns = ['x0','x1','y','weight']
 
 ```
 
-## Checkout the magic 
+## Checkout the magic: drastically reduced sample size
 
 
 ```python
 dataset.shape, binarized_dataset.shape
 ```
-
-
-
 
     ((100000, 5), (4966, 4))
 
