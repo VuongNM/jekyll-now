@@ -82,16 +82,6 @@ plt.scatter(dataset.x0,dataset.x1, c=y, cmap=plt.cm.Paired,
 
 ```
 
-
-
-
-
-
-    <matplotlib.collections.PathCollection at 0x7f4f54b52550>
-
-
-
-
 ![image](/images/output_6_2.png )
 
 
@@ -167,13 +157,6 @@ plt.scatter(binarized_dataset.x0,binarized_dataset.x1,
             sedgecolors='k')
 
 ```
-
-
-
-
-    <matplotlib.collections.PathCollection at 0x7f4f542c3a20>
-
-
 
 
 ![image](/images/output_10_2.png )
