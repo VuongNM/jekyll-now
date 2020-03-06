@@ -92,7 +92,7 @@ plt.scatter(dataset.x0,dataset.x1, c=y, cmap=plt.cm.Paired,
 
 
 
-![png](/images/output_6_2.png "orig")
+![image](/images/output_6_2.png )
 
 
 
@@ -176,7 +176,7 @@ plt.scatter(binarized_dataset.x0,binarized_dataset.x1,
 
 
 
-![png](/images/output_10_2.png "bin")
+![image](/images/output_10_2.png )
 
 
 
