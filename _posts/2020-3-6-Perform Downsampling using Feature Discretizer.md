@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Performing Down Sampling using Feature Discretizer
-excerpt: ![image](/images/output_6_2.png )
+excerpt: Make Kernel methods work with large dataset, with one assumption about the smoothness of the function.
 ---
 
 
@@ -11,6 +11,8 @@ It would cause you headache.
 
 This notebook demonstrate the use of Feature Binning as a way to uniformly subsample the dataset, apply to kernel SVM. You can apply this to other kernel based ML models as well, like GP, or even Kmeans if you fancy. 
 
+
+
 The general idea is to put samples into buckets (bins), and use the bucket or the bucket average as the representative value for all of the samples in that bucket. Number of point falls in to that bin could be used as sample weights if the ML implementation supports.
 
 
@@ -19,7 +21,7 @@ Number of samples will be reduce drastically, from O(n^2) to worst case O(b\*k\*
 
 
 However, the binned samples density will be altered for sure. But if you care more about the decision boundary more than the actual density, then this is surely helpful.
-
+    
 
 
 Here, I created a synthesis dataset consist of 100000 samples, moderate noise and 2 classes. Standard kernel SVM is fitted on the dataset and also, decision boundary is shown.
