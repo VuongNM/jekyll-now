@@ -18,6 +18,8 @@ Bravo!! He's just conducted the famous Bernoulli trials. Everybody is excited. H
 
 Then he do it again, and again, and again. After some hours, he has done thousands of those. Everybody is please with his consistency, the coins always land on the table, head or tail.
 
+
+
 Just before lunch time, he calculates the symmetric confidence interval for his experiment. 
 
 
@@ -46,7 +48,7 @@ Vuong looks tense now. He is embarrased in front of everybody, especially the st
 
 
 
-Jumping to the side, Vuong pulled out a giant Natri coin size of a disc that he always stores in the lab fridge, and start tossing it to a water.
+Jumping to the side, Vuong pulled out a giant Sodium block, size of a plate that he always stores in the lab fridge, and tossed it into water.
 
 BAM!!!! The lab explode! Everybody crawling out. Smoke is all over the place. Told you it's a dangerous experimenting with Vuong.
 

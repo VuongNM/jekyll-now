@@ -1,3 +1,8 @@
+---
+layout: post
+title: Performing Down Sampling using Feature Discretizer
+excerpt: ![image](/images/output_6_2.png )
+---
 
 
 Feature binning is the new coolest tool in the box. Imaging you have to train a Gaussian Processes, or any other kernel method based ML models, and having to deal with a massive dataset. The kernel function is computed pairwise for samples, it means that the **time and space cost of the kernel function is O(n^2)**.
