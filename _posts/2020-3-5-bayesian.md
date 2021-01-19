@@ -52,6 +52,7 @@ Jumping to the side, Vuong pulled out a giant Sodium block, size of a plate that
 
 BAM!!!! The lab explode! Everybody crawling out. Smoke is all over the place. Told you it's a dangerous experimenting with Vuong.
 
+![image](/images/bayes-meme.png)
 
 
 Vuong disappears for 3 months. Then, somebody saw him attending Bayesian School of Probability and Statistics, right in front of the museum across the road.
