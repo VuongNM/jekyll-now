@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Performing Down Sampling using Feature Discretizer
-excerpt: Make Kernel methods work with large dataset, with one assumption about the smoothness of the function.
+excerpt: ![image](/images/output_10_2.png)
 ---
 
 
