@@ -1,15 +1,16 @@
 ---
 layout: post
-title: Performing Down Sampling Using Feature Discretizer
-excerpt: ![image](/images/output_10_2.png)
+title: Quantized Space SVM
+image: ![image](/images/output_10_2.png)
 ---
 
 
-Feature binning is the new coolest tool in the box. Imaging you have to train a Gaussian Processes, or any other kernel method based ML models, and having to deal with a massive dataset. The kernel function is computed pairwise for samples, it means that the **time and space cost of the kernel function is O(n^2)**.
+
+The original SVM calculate n^2 pairwise distance between datapoints, and in the case of Kernel SVM, it's n^2 pairwise kernel distance. Memory consumption is also O(n^2). 
 
 It would cause you headache.
 
-This notebook demonstrate the use of Feature Binning as a way to uniformly subsample the dataset, apply to kernel SVM. You can apply this to other kernel based ML models as well, like GP, or even Kmeans if you fancy. 
+This notebook demonstrate the use of Feature Binning as a way to uniformly subsample the dataset, apply to kernel SVM. 
 
 
 
@@ -46,6 +47,7 @@ There any some way to obtain the bins, here i choose uniform (All buckets are in
 ![image](/images/output_10_2.png )
 
 
+Note that this method doesn't work well out of the box with density based method like GaussianProcess etc. Density estimations from this method doens't guaranteed to produce the correct density. I bet there is weighting tricks to make it match :)
 
 
 Checkout the notebook here.[notebook](https://github.com/VuongNM/featurebinning/blob/master/featbin.ipynb)
