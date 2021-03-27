@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Quantized Space SVM With Entropy Based Sampling
-excerpt: Choosing points to train SVM by using entropy of space around it.
-related_image: /images/quantized-kernel-svm.png 
+<!-- excer  pt: Choosing points to train SVM by using entropy of space around it. -->
 ---
 
-
+![image](/images/quantized-kernel-svm.png )
+<center> <em>Training SVM on much smaller dataset sampled from the original, using entropy</em> </center>
 
 This is part 2 of the series on using quantized space as representation of points. In the first post, we trained an SVM on quantized samples and successfully reduced the training time by orders of magnitude. In this post, we take further steps and reduce the quantized sample points to an extreme. 
 
@@ -45,15 +45,27 @@ Here, we use sklearn.FeatureDiscretizer to quantize the space into a grid of cel
 
 
 
+
+{:refdef: style="text-align: center;"}
+![image](/images/svm-moon.png )
+{: refdef}
+<center> <em>SVM on 100000 points Gaussian cloud, take a long time to train</em> </center>
+
+
+
 Results from the Kernel SVM with much fewer points. Here we sample 500 points out of 100000 points. THe orange and teal points are the sampled data points. 
 
 
-![image](/images/quantized-kernel-svm.png )
+![image](/images/svm-moon-sampled.png )
+<center> <em>SVM on only 500 points, near the decision boundary, we can see more points are sampled. </em> </center>
 
 
-Again, this use quantize cell to speed up the computation. Using NearestNeighbor method can also calculate the same entropy, but it's much more computationally expensive. 
 
 
-The parameters for this method is the width of the cells and the base sampling prob and can be tuned by CV. 
+
+We can use NearestNeighbor method to calculate the same entropy, but it's much more computationally expensive, given the objective is to speed up SVM.
+
+
+The parameters for this method is the width of the cells and the base sampling prob and can be tuned by CV. More on that later.
 
 

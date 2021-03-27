@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Quantized Space SVM
-related_image: /images/output_10_2.png
 ---
+
+
+
+![image](/images/output_6_2.png )
+<center> SVM (right) on a synthetic dataset consist of 100000 samples, moderate noise and 2 classes. </center>
 
 
 
@@ -25,12 +29,6 @@ However, the binned samples density will be altered for sure. But if you care mo
     
 
 
-Here, I created a synthesis dataset consist of 100000 samples, moderate noise and 2 classes. Standard kernel SVM is fitted on the dataset and also, decision boundary is shown.
-
-
-
-![image](/images/output_6_2.png )
-
 
 
 **Now here come the fancy thing: FeatureDiscretizer.**
@@ -45,6 +43,7 @@ There any some way to obtain the bins, here i choose uniform (All buckets are in
 
 
 ![image](/images/output_10_2.png )
+<center>See how evenly distributed the inner part of the point cloud is.</center>
 
 
 Note that this method doesn't work well out of the box with density based method like GaussianProcess etc. Density estimations from this method doens't guaranteed to produce the correct density. I bet there is weighting tricks to make it match :)
