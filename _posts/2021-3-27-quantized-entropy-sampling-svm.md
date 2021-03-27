@@ -1,9 +1,12 @@
 ---
 layout: post
-title: Quantized Space SVM Part 2: Entropy Based Sampling
+title: Quantized Space SVM With Entropy Based Sampling
 excerpt: Choosing points to train SVM by using entropy of space around it.
 ---
 
+
+
+This is part 2 of the series on using quantized space as representation of points. In the first post, we trained an SVM on quantized samples and successfully reduced the training time by orders of magnitude. In this post, we take further steps and reduce the quantized sample points to an extreme. 
 
 
 The idea behind training SVM on quantized sample space is that most of the influence to the decision boundary comes from points close to the decision boundary (DB) itself. Further points from the DB, the less likely it is to be important. This is the robustness of SVM. 
@@ -12,25 +15,25 @@ The idea behind training SVM on quantized sample space is that most of the influ
 This property is special to SVM. Other methods such as Logistic Regression (or other Gradient Descent methods ) don't have this. It's easily influenced by outliers.
 
 
-This is part 2 of the series on using quantized space as representation of points. In the first post, we trained an SVM on quantized samples and successfully reduced the training time by orders of magnitude. In this post, we take further steps and reduce the quantized sample points to an extreme. 
 
 
 # Using Entropy
 
 Given a distribution, entropy measures how ununiform it is. It has the least Entropy when everything is the same, and has the most entropy when everything has an equal share. 
 
-From an Information Theory perspective, entropy measures the amount of information we need to encode that distribution. 
+
+From an Information Theory perspective, entropy measures the amount of information I need to encode that distribution. 
 
 
 
 
 
-The important observation we have is that the space close to DB has higher entropy. Thus, we can use entropy of the space around a point as a proxy to the importance of the point to the decision function. This answers one of the most fundamental questions in SVM: choosing the datapoints.
+The important observation I have is that the space close to Decision Boundary has higher entropy. Thus, I can use entropy of the space around a point as a proxy to the importance of the point to the decision function. This ansIrs one of the most fundamental questions in SVM: choosing the datapoints.
 
 
 
 
-Another way to look at this is how much information we lose if we throw away all the information we have about points in this cell, and encoding everything with the most popular label. The information we lost equals to KL Divergence from the cell distribution to the all-popular distribution, or equals to the entropy of the cell.
+Another way to look at this is how much information I lose if I throw away all the information I have about points in this cell, and encoding everything with the most popular label. The information we lose equals to KL Divergence from the cell distribution to the all-popular distribution , or equals to the entropy of the cell.
 
 
 
@@ -53,5 +56,3 @@ Again, this use quantize cell to speed up the computation. Using NearestNeighbor
 The parameters for this method is the width of the cells and the base sampling prob and can be tuned by CV. 
 
 
-
-Notebook coming soon.
