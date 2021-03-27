@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Performing Down Sampling using Feature Discretizer
+title: Performing Down Sampling Using Feature Discretizer
 excerpt: ![image](/images/output_10_2.png)
 ---
 
