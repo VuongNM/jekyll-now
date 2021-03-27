@@ -2,6 +2,7 @@
 layout: post
 title: Quantized Space SVM With Entropy Based Sampling
 excerpt: Choosing points to train SVM by using entropy of space around it.
+related_image: /images/quantized-kernel-svm.png 
 ---
 
 

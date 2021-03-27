@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quantized Space SVM
-image: ![image](/images/output_10_2.png)
+related_image: /images/output_10_2.png
 ---
 
 
