@@ -29,12 +29,12 @@ From an Information Theory perspective, entropy measures the amount of informati
 
 
 
-The important observation I have is that the space close to Decision Boundary has higher entropy. Thus, I can use entropy of the space around a point as a proxy to the importance of the point to the decision function. This ansIrs one of the most fundamental questions in SVM: choosing the datapoints.
+The important observation I have is that the space close to Decision Boundary has higher entropy. Thus, I can use entropy of the space around a point as a proxy to the importance of the point to the decision function. This is one of the most fundamental questions in SVM: choosing the datapoints.
 
 
 
 
-Another way to look at this is how much information I lose if I throw away all the information I have about points in this cell, and encoding everything with the most popular label. The information we lose equals to KL Divergence from the cell distribution to the all-popular distribution , or equals to the entropy of the cell.
+Another way to look at this is how much information I lose if I throw away all the information I have about points in this cell, and encoding everything with the most popular label. The lost information amounts to the entropy.
 
 
 
