@@ -11,6 +11,9 @@ layout: default
       <div class="entry">
         {{ post.excerpt }}
       </div>
+      {% if page.related_image %}
+      <img src="{{ page.related_image }}" alt="">
+      {% endif %}
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
