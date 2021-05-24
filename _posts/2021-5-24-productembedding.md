@@ -5,11 +5,11 @@ excerpt: Applying NLP methods for ecommerce, works wonders!
 ---
 
 
-#Word Embedding
+# Word Embedding
 
 Word Embedding has been around for quite a while. Let's apply these techniques for products.
 
-Originally, w2v (or GloVe) vector embedding works with words in a sentence. The idea is simple: words that appear in the same context should have the same meaning, and vice versa. So we set up a model predicting whether or not a word appears in some neighborhood (a Bag Of Words, BOW). This idea is extended to other word embedding models, and proved successful in discovering linear structure within the corpus.
+Originally, Word2vec (or GloVe) vector embedding works with words in a sentence. The idea is simple: words that appear in the same context should have the same meaning, and vice versa. So we set up a model predicting whether or not a word appears in some neighborhood (a Bag Of Words, BOW). This idea is extended to other word embedding models, and proved successful in discovering linear structure within the corpus.
 
 
 # Word Embedding For Products: Word2vec
@@ -35,7 +35,7 @@ Theoretically, bag-of-item for this task is very well suited than BOW for modell
 <center> <em>Tis but a meme Sire!.</em> </center>
 
 
-However, w2v only gets you so far. It's been pointed out that we have a hard time modeling rare words with w2v. The same with modelling rarely bought items in our problem. That's where Fasttext comes in.
+However, Word2vec only gets you so far. It's been pointed out that we have a hard time modeling rare words with Word2vec. The same with modelling rarely bought items in our problem. That's where Fasttext comes in.
 
 Fasttext assumes that the words morphics with the same root. For example: "Suggestion" and "Suggesting" are derived from the verb "Suggest". Thus, by leveraging the sub-word information, we can train better word embedding, especially for rare words. We can even construct a good baseline embedding vector for new words, by combining its sub-word components. This is quite nice if you do embedding in noisy datasets (e.g: Online tweets), or in expansive languages.
  
