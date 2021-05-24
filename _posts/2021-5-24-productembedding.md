@@ -4,7 +4,8 @@ title: Product Embedding with Word2Vec And Fasttext
 excerpt: Applying NLP methods for ecommerce, works wonders!
 ---
 
-
+![image](/images/embedding.png )
+<center> <em>Can we reproduce something like this but for products></em> </center>
 
 Word Embedding has been around for quite a while. Let's apply these techniques for products.
 
