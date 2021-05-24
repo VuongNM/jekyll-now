@@ -8,14 +8,17 @@ excerpt: Applying NLP methods for ecommerce, works wonders!
 
 Word Embedding has been around for quite a while. Let's apply these techniques for products.
 
+
 Originally, Word2vec (or GloVe) vector embedding works with words in a sentence. The idea is simple: words that appear in the same context should have the same meaning, and vice versa. So we set up a model predicting whether or not a word appears in some neighborhood (a Bag Of Words, BOW). This idea is extended to other word embedding models, and proved successful in discovering linear structure within the corpus.
 
 
-# Word Embedding For Products: Word2vec
 
 ![image](/images/acat.jpg )
 <center> <em>A cat picture to keep you engaged and happy.</em> </center>
 
+
+
+# Word Embedding For Products: Word2vec
 
 
 
@@ -28,10 +31,14 @@ Theoretically, bag-of-item for this task is very well suited than BOW for modell
 
 
 
-#Word Embedding For Products: Fasttext
 
 ![image](/images/bart-is-right.png )
 <center> <em>Tis but a meme Sire!.</em> </center>
+
+
+
+# Word Embedding For Products: Fasttext
+
 
 
 However, Word2vec only gets you so far. It's been pointed out that we have a hard time modeling rare words with Word2vec. The same with modelling rarely bought items in our problem. That's where Fasttext comes in.
@@ -48,12 +55,18 @@ Now, the product attributes act as 'sub-word' information and help training more
 
 
 
+
 # Training the model
+
+
 
 In Gensim, one of the most popular word2vec / fasttext training lib, and which I know and love, currently there is no way for us to specifically set up the sub-product information with precision. Doing this requires writing a custom Cython function, but luckily, it's not that complex.
 
 
+
 # Some anecdotes
+
+
 
 Let's look into the most famous example of word2vec: Vector(king) - Vector(man) + Vector(woman) = Vector(Queen). This suggests that there is a vector ( with a magnitude and direction) representing the King-ly-ness in the embedding space. In the embedding space of products, we can find such vectors for different relationships between products: Cheapness, Blue-ness...etc. This is very helpful for setting up recommendation engines, such as finding the cheap replacement for a product for example.
 
