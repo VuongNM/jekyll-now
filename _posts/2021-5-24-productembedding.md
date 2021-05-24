@@ -1,11 +1,10 @@
 ---
 layout: post
-title: E-commerce Product Embedding with Word2Vec And Fasttext
+title: Product Embedding with Word2Vec And Fasttext
 excerpt: Applying NLP methods for ecommerce, works wonders!
 ---
 
 
-# Word Embedding
 
 Word Embedding has been around for quite a while. Let's apply these techniques for products.
 
